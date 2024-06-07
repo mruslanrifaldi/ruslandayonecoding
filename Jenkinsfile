@@ -31,7 +31,7 @@ pipeline
 
         post {
                 always {
-                    emailext body: 'Summary', subject: 'Pipeline Status', to: 'ruslanrifaldi4@gmail.com'
+                    emailext body: 'TESTING SELENIUM', subject: 'TESTING SELENIUM BY RUSLAN', to: 'selenium15byruslan@gmail.com'
                 }
             }
     }
