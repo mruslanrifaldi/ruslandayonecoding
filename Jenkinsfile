@@ -29,13 +29,10 @@ pipeline
         }
     }
 
-    post
-    {
-
-    	always
-    	{
-    		emailext body: 'Summary', subject: 'Pipeline Status', to: 'ruslanrifaldi4@gmail.com'
-    	}
-
+        post {
+                always {
+                    emailext body: 'Summary', subject: 'Pipeline Status', to: 'ruslanrifaldi4@gmail.com'
+                }
+            }
     }
 }
