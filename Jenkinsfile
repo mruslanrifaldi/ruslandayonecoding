@@ -29,10 +29,13 @@ pipeline
         }
     }
 
-        post {
-                always {
-                    emailext body: 'TESTING SELENIUM', subject: 'TESTING SELENIUM BY RUSLAN', to: 'selenium15byruslan@gmail.com'
-                }
-            }
+    post
+    {
+
+    	always
+    	{
+    		emailext body: 'selenium test', subject: 'selenium test ruslan', to: 'selenium15byruslan@gmail.com'
+    	}
+
     }
 }
